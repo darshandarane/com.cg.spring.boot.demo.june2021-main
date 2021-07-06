@@ -1163,3 +1163,28 @@ Caused by: java.lang.IllegalArgumentException: Unrecognized legacy `hibernate.hb
 2021-07-06 17:12:14.724  INFO 19416 --- [restartedMain] com.cg.spring.boot.demo.Application      : Started Application in 3.727 seconds (JVM running for 544.519)
 2021-07-06 17:12:14.727  INFO 19416 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
 2021-07-06 17:12:14.728  INFO 19416 --- [restartedMain] com.cg.spring.boot.demo.Application      : End
+2021-07-06 17:14:06.130  INFO 19416 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-06 17:14:06.132  INFO 19416 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2021-07-06 17:14:06.138  INFO 19416 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2021-07-06 17:14:06.228  INFO 19416 --- [restartedMain] com.cg.spring.boot.demo.Application      : Start
+2021-07-06 17:14:06.491  INFO 19416 --- [restartedMain] com.cg.spring.boot.demo.Application      : Starting Application using Java 16.0.1 on DESKTOP-VSSUIEH with PID 19416 (C:\Users\darsh\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\com.cg.spring.boot.demo.june2021-main\target\classes started by darsh in C:\Users\darsh\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\com.cg.spring.boot.demo.june2021-main)
+2021-07-06 17:14:06.497  INFO 19416 --- [restartedMain] com.cg.spring.boot.demo.Application      : No active profile set, falling back to default profiles: default
+2021-07-06 17:14:06.993  INFO 19416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-06 17:14:07.018  INFO 19416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+2021-07-06 17:14:07.310  INFO 19416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-07-06 17:14:07.314  INFO 19416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-06 17:14:07.316  INFO 19416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-06 17:14:07.416  INFO 19416 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-07-06 17:14:07.417  INFO 19416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 911 ms
+2021-07-06 17:14:07.551  INFO 19416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-06 17:14:07.579  INFO 19416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2021-07-06 17:14:07.731  INFO 19416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2021-07-06 17:14:07.732  INFO 19416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-07-06 17:14:08.583  INFO 19416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-06 17:14:08.584  INFO 19416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-06 17:14:08.791  WARN 19416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-06 17:14:08.919  INFO 19416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-07-06 17:14:08.933  INFO 19416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-06 17:14:08.940  INFO 19416 --- [restartedMain] com.cg.spring.boot.demo.Application      : Started Application in 2.694 seconds (JVM running for 658.734)
+2021-07-06 17:14:08.942  INFO 19416 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-07-06 17:14:08.943  INFO 19416 --- [restartedMain] com.cg.spring.boot.demo.Application      : End
