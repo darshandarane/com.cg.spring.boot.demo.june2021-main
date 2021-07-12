@@ -1,7 +1,6 @@
 package com.cg.spring.boot.demo.controller;
 
 import java.util.List;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +17,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.cg.spring.boot.demo.model.Employee;
 import com.cg.spring.boot.demo.service.EmployeeService;
+
+/**
+ * 
+ * @author Vaman Deshmukh
+ * 
+ * REST controller for Employee APIs
+ *
+ */
 
 @RestController
 public class EmployeeController {
@@ -95,6 +102,13 @@ public class EmployeeController {
 	public Employee updateEmp(@RequestBody Employee emp) {
 		LOG.info("addEmp");
 		return service.updateEmployee(emp);
+	}
+
+	@GetMapping("/updatesal/{newSalary}/{oldSalary}")
+	public String updateSal(@PathVariable("newSalary") double newSalary, @PathVariable("oldSalary") double oldSalary) {
+		LOG.info("updateSal");
+		service.updateSalaryGreatherThan(newSalary, oldSalary);
+		return "Salary updated";
 	}
 
 	@DeleteMapping("deleteemp/{eid}")
